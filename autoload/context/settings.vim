@@ -25,7 +25,7 @@ function! context#settings#parse() abort
     let add_autocmds = get(g:, 'context_add_autocmds', 1)
 
     " how many lines to use at most for the context
-    let max_height = get(g:, 'context_max_height', 2)
+    let max_height = get(g:, 'context_max_height', 6)
 
     " how many lines are allowed per level
     " NOTE: the setting is called per_indent for legacy reasons
