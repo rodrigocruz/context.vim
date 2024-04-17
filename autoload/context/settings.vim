@@ -14,7 +14,7 @@ function! context#settings#parse() abort
 
     " set this to 0 to disable this plugin on launch
     " (use :ContextEnable to enable it later)
-    let enabled = get(g:, 'context_enabled', 1)
+    let enabled = get(g:, 'context_enabled', 0)
 
     " if you wish to blacklist a specific filetype, add the name of the
     " filetype to this list.
